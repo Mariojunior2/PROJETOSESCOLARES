@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJETO DICIONARIO</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+ <header>
+    <h1>Meu Dicionário de Códigos</h1>
+    <nav>
+        <ul>
+            <li><a href="#html">HTML</a></li>
+            <li><a href="#css">CSS</a></li>
+            <li><a href="#javascript">Java</a></li>
+            <li><a href="#python">Python</a></li>
+        </ul>
+    </nav>
+ </header>
+
+ <section id="adicionar">
+    <h2>Adicionar Novo Código</h2>
+    <form id="formAdicionarCodigo">
+        <label for="linguagem">Linguagem: </label>
+        <input type="text" id="linguagem" placeholder="linguagem" required><br>
+        
+        <label for="descricao">Descrição:</label>
+        <input type="text" id="descricao" name="descricao" placeholder="o que ele faz" required><br>
+
+        <label for="exemplo">Exemplo de Código:</label><br>
+        <textarea name="exemplo" id="exemplo" rows="4" cols="50" placeholder="Inisira o código" required></textarea><br>
+        
+        <button type="button" id="btnAdicionar">Adicionar Código</button>
+    </form>
+
+ </section>
+
+    <section id="html">
+        <h2>HTML</h2>
+    </section>
+    <section id="css">
+        <h2>CSS</h2>
+    </section>
+
+    <section id="javascript">
+        <h2>JavaScript</h2>
+    </section>
+    <section id="python">
+        <h2>Python</h2>
+    </section>
+    
+    <button id="btnBaixarJson">Baixar JSON</button>
+
+    <footer>
+        <p>MEU PROJETO 2024</p>
+    </footer>
+
+    <script src="assets/java/script.js"></script>
+</body>
+</html>
